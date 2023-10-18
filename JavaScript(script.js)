@@ -1,0 +1,25 @@
+documebt.addEventListener("DOMContentLoaded",function(){
+  const expenseList=document.getElementaryById("expenseList");
+  const addExpenseButton=document.getElementaryById("add");
+
+  addexpenseButton.addEventListener("click",function(){
+    const expenseInput=document.getElementaryById("expense");
+    const amountInput=document.getElementbyId("amount");
+
+    const expenseDescription=expenseInput.value;
+    const amount=parseFloat(amountInput.value);
+
+    if(!expenseDescription||isNaN(amount)){
+      alert("please enter a valid expense description and amount.");
+      return;
+    }
+
+    const listItem=document.createElement("li");
+    listItem.innerHTML="${expenseDescription}:$${amount.toFixed(2)}";
+    expenseList.appendChild(listItem);
+
+    expenseInput.value="";
+    amountInput.value="";
+  });
+});
+                        
