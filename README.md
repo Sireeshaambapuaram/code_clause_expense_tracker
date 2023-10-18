@@ -1,5 +1,5 @@
 # code_clause_expense_tracker
-To creare a expense tracker we need to follow several steps
+To create a expense tracker we need to follow several steps
 1.planning:define the features and functinalities you want in your expense tracker.consider whether it will be a personal or shared tracker.
 2.Front-End Development:create the user interface using html,css and javascript .you can use frameworks like react,anguar,or Vue.js for a dynamic and responsve interface.
 3.Back-end development:Build the server side logic using a programming language like Node.js,python,or ruby.set up a database to store expense data.
