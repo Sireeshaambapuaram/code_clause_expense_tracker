@@ -1,0 +1,19 @@
+body{
+  font-family:Arial,sans-serif;
+  text-align:center;
+}
+.container{
+  margin:20px;
+  border:1px solid #ccc;
+  padding:20px;
+  border-radius:5px;
+  background-color:#f9f9f9;
+}
+.input{
+  display:flex;
+  justify-content:space-between;
+  margin:left;
+}
+.expenses{
+  text-align:left;
+}
